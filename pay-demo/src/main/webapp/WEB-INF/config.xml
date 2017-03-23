@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="wxPayConfigBean" class="pay.weixn.bean.WxPayConfigBean">
+        <property name="appid" value="wx426b3015555a46be"/>
+        <property name="mch_id" value="1900009851"/>
+        <property name="key" value="8934e7d15453e97507ef794cf7b0519d"/>
+        <property name="fee_type" value="NATIVE"/>
+        <property name="sign_type" value="MD5"/>
+        <property name="notify_url" value="http://paysdk.weixin.qq.com/example/notify.php"/>
+    </bean>
+
+</beans>
